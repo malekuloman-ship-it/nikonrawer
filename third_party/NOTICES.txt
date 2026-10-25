@@ -1,0 +1,17 @@
+RAWER 0.6.2 includes a C# adaptation of Nikon JPEG XS entropy decoding and
+band layout from nbuchwitz/dnglab, branch nikon-he-jpegxs.
+Original source notice: SPDX-License-Identifier: LGPL-2.1; Copyright 2026.
+This adapted code is covered by GNU LGPL 2.1.
+License text: dnglab-LGPL-2.1.txt (included beside this notice).
+
+The complete corresponding source for this version, including the modified
+C# code, build script and required resources, is offered as
+RAWER-0.6.2-source.zip alongside the Windows download at:
+https://github.com/malekuloman-ship-it/nikonrawer/releases/tag/v0.6.2
+
+In that source archive, exact upstream blob IDs and URLs are recorded in
+third_party/dnglab-reference.json. Referenced Rust source files are retained
+in research/dnglab-reference/. The adapted C# code is in src/Reencode.cs.
+
+The coefficient-domain requantizer and entropy encoder were implemented for
+RAWER. This notice does not select a new license for unrelated project code.

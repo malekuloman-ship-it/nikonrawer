@@ -1,0 +1,33 @@
+{
+  "repository": "https://github.com/nbuchwitz/dnglab",
+  "ref": "nikon-he-jpegxs",
+  "license": "LGPL-2.1",
+  "adaptedFile": "src/Reencode.cs",
+  "files": [
+    {
+      "file": "header.rs",
+      "blobSha": "ac31cda6b19c77b61ffa76bd98f256df520b4a66",
+      "upstream": "https://github.com/nbuchwitz/dnglab/blob/nikon-he-jpegxs/rawler/src/decompressors/jpegxs/header.rs"
+    },
+    {
+      "file": "pi.rs",
+      "blobSha": "2dee2daa204bc33d2d2976e2eff05bd2270ec875",
+      "upstream": "https://github.com/nbuchwitz/dnglab/blob/nikon-he-jpegxs/rawler/src/decompressors/jpegxs/pi.rs"
+    },
+    {
+      "file": "entropy.rs",
+      "blobSha": "f4315a1044e1276929bc8af66980cb2e6de0acf9",
+      "upstream": "https://github.com/nbuchwitz/dnglab/blob/nikon-he-jpegxs/rawler/src/decompressors/jpegxs/entropy.rs"
+    },
+    {
+      "file": "bitreader.rs",
+      "blobSha": "f2a6bea117eb27350dca8819528ac093f80c8fc1",
+      "upstream": "https://github.com/nbuchwitz/dnglab/blob/nikon-he-jpegxs/rawler/src/decompressors/jpegxs/bitreader.rs"
+    },
+    {
+      "file": "dwt.rs",
+      "blobSha": "7968c237b3c2565b684fd16124d35b13b12d24cc",
+      "upstream": "https://github.com/nbuchwitz/dnglab/blob/nikon-he-jpegxs/rawler/src/decompressors/jpegxs/dwt.rs"
+    }
+  ]
+}
